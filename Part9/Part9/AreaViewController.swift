@@ -9,7 +9,7 @@ import UIKit
 
 class AreaViewController: UIViewController {
     
-    var area: String?
+    private(set) var area: String?
     
     @IBAction func areaButton(_ sender: UIButton) {
         area = sender.currentTitle
